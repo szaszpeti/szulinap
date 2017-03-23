@@ -1,0 +1,25 @@
+{% extends "boldog/base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+<div class="container" align="center">
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <a href="{% url 'boldog:user_login'%}"><button type="button" class="btn btn-primary">LOGIN</button></a>
+   <a href="{% url 'boldog:register'%}"><button type="button" class="btn btn-primary">REGISTER</button></a>
+
+</div>
+<br><br><br>
+<div class="container" align="center">
+    <h4>POWERED BY:</h4>
+
+    <div>
+        <img src="https://s-media-cache-ak0.pinimg.com/originals/2d/0a/e7/2d0ae72785107329065c0009389a1d36.jpg" style=""/>
+
+
+    </div>
+
+</div>
+{% endblock %}
